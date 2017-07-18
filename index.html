@@ -33,10 +33,39 @@
 			            <h2 class="intro-head">Every Project Begins With Collaboration</h2>
 			            <p class="intro-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
 			            <p class="join-btn">
-                          <a href="#" class="btn btn-join">Join Us!</a>
+                          <a type="button" data-toggle="modal" data-target="#myModal" href="#" class="btn btn-join">Join Us!</a>
                         </p>
                         <p class="important-text">* In order to keep the group authentic we review every submission</p>
                         <img src="img/illustration.png" alt="" class="img-responsive img-illustration">
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                              </div>
+                              <div class="modal-body">
+                                  <img src="img/invite-art.png" alt="" class="img-responsive ">
+                                   <h3>Every Project Begins With Collaboration</h3>
+                                   <p class="detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+                                   <p class="form-fill">Fill in the form below</p>
+                                   <div class="success-message text-center hidden"><p>Success</p></div>
+                                   <form action="" method="post" class="invite-form" name="invite" netlify>
+                                      <div class="form-group">
+                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Where you want us to send your invite?" required>
+                                      </div>
+                                      <div class="form-group">
+                                        <input type="url" pattern="https?://.+" class="form-control" id="portfolio" placeholder="Where can we find your work?" required>
+                                      </div>
+                                        <button type="submit" class="btn btn-join">Request Invite</button>
+                                    </form>
+                                
+                                   <p class="important-text">Don't worry we'll never spam you</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
 			        </div>
 			    </div>
 			</div>   

@@ -189,3 +189,66 @@
     margin: 0 auto;
     padding-top: 60px;
 }
+
+.modal-header{
+    border: none;
+}
+
+.modal-content{
+    border-radius: 2.5px;
+    box-shadow: 0px 5.5px 14.4px 5.6px rgba(0, 0, 0, 0.55);
+    border: none;
+}
+
+.modal-body img{
+    margin: 0 auto;
+    max-width: 120px;
+}
+
+.modal-body h3{
+    padding-top: 20px;
+    font-family: 'montserrat';
+    font-size: 20px;
+    color: #434343;
+}
+
+.modal-body p{
+    padding-top: 10px;
+    font-family: 'montserratlight';
+    font-size: 12px;
+    color: #848383;
+}
+.modal-body .detail{
+    max-width: 400px;
+    margin: 0 auto;
+    font-weight: 100;  
+}
+
+.modal-body .form-fill{
+    padding-top: 30px;
+}
+
+.form-control{
+    width: 400px;
+    height: 50px;
+    padding: 6px 20px;
+    margin: 0 auto;
+}
+
+.modal-content form{
+    padding-top: 20px;
+}
+
+@media (max-width: 767px){
+    .form-control {
+    width: 300px;
+    }
+}
+
+
+@media (min-width: 767px){
+    .modal-dialog{
+    width: 500px;
+    margin: 10vh auto;
+}
+}
