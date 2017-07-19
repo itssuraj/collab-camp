@@ -252,3 +252,18 @@
     margin: 10vh auto;
 }
 }
+
+.thankyou-wrapper{
+    margin: 20vh auto;
+    font-family: 'montserratlight';
+    color: #434343; 
+}
+
+.thankyou-wrapper img{
+    margin: 0 auto;
+}
+
+.thankyou-wrapper h3, .thankyou-wrapper p{
+    padding-top: 30px;
+}
+
